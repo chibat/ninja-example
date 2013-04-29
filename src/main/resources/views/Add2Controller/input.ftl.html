@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add2</title>
+  </head>
+<body>
+<#list errors! as error>
+${error.field}: ${error.constraintViolation.messageKey}<br/>
+</#list>
+<form method="post" action="${contextPath}/add2/calculate">
+<input type="text" name="arg1" value="${arg1!}" />
++
+<input type="text" name="arg2" value="${arg2!}" />
+<input type="submit" />
+</form>
+</body>
+</html>
