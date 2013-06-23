@@ -8,6 +8,8 @@ eclipse {
   pathVariables 'GRADLE_USER_HOME': gradle.gradleUserHomeDir
 }
 
+// eclipseWtpComponent.dependsOn cleanEclipseWtpComponent﻿
+
 sourceCompatibility = targetCompatibility = 1.6
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
@@ -22,8 +24,8 @@ repositories {
 }
 
 dependencies {
-  compile 'org.ninjaframework:ninja-core:1.3'
-  compile 'org.ninjaframework:ninja-servlet:1.3'
+  compile 'org.ninjaframework:ninja-core:1.4.4'
+  compile 'org.ninjaframework:ninja-servlet:1.4.4'
   compile 'javax.servlet:javax.servlet-api:3.0.1'
 }
 

@@ -3,7 +3,6 @@ package controllers;
 import java.util.List;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.validation.constraints.Digits;
 
 import org.hibernate.validator.constraints.NotBlank;
@@ -15,20 +14,16 @@ import ninja.validation.JSR303Validation;
 import ninja.validation.Validation;
 
 import com.google.common.collect.Maps;
-import com.google.inject.Inject;
 
 public class Add2Controller {
 
-    @Inject
-    private HttpServletRequest request;
-
     public Result input() {
-        return Results.html().render(newMap());
+        return Results.html();
     }
 
     public Result calculate(@JSR303Validation Form form, Validation validation) {
 
-        Map<String, Object> map = newMap();
+        Map<String, Object> map = Maps.newHashMap();
 
         if (validation.hasViolations()) {
             List<FieldViolation> beanViolations = validation.getBeanViolations();
@@ -42,12 +37,6 @@ public class Add2Controller {
         map.put("result",
                 Integer.parseInt(form.arg1) + Integer.parseInt(form.arg2));
         return Results.html().render(map);
-    }
-
-    private Map<String, Object> newMap() {
-        Map<String, Object> map = Maps.newHashMap();
-        map.put("contextPath", request.getContextPath());
-        return map;
     }
 
     public static class Form {

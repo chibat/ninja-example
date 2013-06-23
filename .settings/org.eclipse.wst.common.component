@@ -5,115 +5,124 @@
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
 		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/commons-fileupload/commons-fileupload/1.2.2/jar/1e48256a2341047e7d729217adeec8217f6e3a1a/commons-fileupload-1.2.2.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/commons-configuration/commons-configuration/1.9/jar/5e8a4890284cf7eaa9241ace2cc07518d9519d22/commons-configuration-1.9.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/ch.qos.logback/logback-core/1.0.4/jar/7f229b27519ee2ad29ff57af4005a5dbc93b19c/logback-core-1.0.4.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.sonatype.sisu.inject/cglib/2.2.1-v20090111/jar/7ce5e983fd0e6c78346f4c9cbfa39d83049dda2/cglib-2.2.1-v20090111.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.mindrot/jbcrypt/0.3m/jar/fe2d9c5f23767d681a7e38fc8986b812400ec583/jbcrypt-0.3m.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.fasterxml.jackson.core/jackson-core/2.1.4/jar/8896e10f8b07918b60c835b45a05507fa213e84/jackson-core-2.1.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.codehaus.woodstox/stax2-api/3.1.1/jar/466eab062e9d1a3ce2c4631b6d09b5e5c0cbd1b/stax2-api-3.1.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.google.code.gson/gson/2.2.3/jar/91ac0b4c3a38b721c7548baa239950f23b65b56e/gson-2.2.3.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.apache.commons/commons-email/1.3.1/jar/c8532fac118c53d65e302d45c23403f39b7ef7a9/commons-email-1.3.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.google.inject.extensions/guice-servlet/3.0/jar/610cde0e8da5a8b7d8efb8f0b8987466ffebaaf9/guice-servlet-3.0.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.1.0/jar/6c32807495b6d0bfb20de0331aa9f4451921d098/jackson-module-jaxb-annotations-2.1.0.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.1.4/jar/ef82ef66bb051a2b3efb6bf46f56e463d9b0bf9/jackson-dataformat-xml-2.1.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/javax.mail/mail/1.4.5/jar/85319c87280f30e1afc54c355f91f44741beac49/mail-1.4.5.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.google.inject/guice/3.0/jar/9d84f15fe35e2c716a02979fb62f50a29f38aefa/guice-3.0.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.google.code.findbugs/jsr305/1.3.9/jar/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/ch.qos.logback/logback-core/1.0.11/jar/24e57b2020138cfa96f191e7a8cc02bc6c6d34f6/logback-core-1.0.11.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.hibernate/hibernate-validator/4.3.0.Final/jar/f2d0447bcdb27a48398215a33eb351b8a594e3a4/hibernate-validator-4.3.0.Final.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.jboss.logging/jboss-logging/3.1.0.CR2/jar/28725380c07f917ace4e511db21cc45e9ae5a72b/jboss-logging-3.1.0.CR2.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/javax.mail/mail/1.4.5/jar/85319c87280f30e1afc54c355f91f44741beac49/mail-1.4.5.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.fasterxml.jackson.core/jackson-databind/2.1.1/jar/38d2b3c0c89af5b937fd98c3e558bf6b58c14aa2/jackson-databind-2.1.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.freemarker/freemarker-gae/2.3.19/jar/e036c313e29cd45c4b54afca9a7de35a082bea2c/freemarker-gae-2.3.19.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.fasterxml.jackson.core/jackson-core/2.1.1/jar/82ad1c5f92f6dcc6291f5c46ebacb975eaa844de/jackson-core-2.1.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/javax.el/javax.el-api/2.2.4/jar/1287562cc3f0ff5439ded6f2949e73ce1c0edaab/javax.el-api-2.2.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.fasterxml.jackson.core/jackson-annotations/2.1.1/jar/b01cc83e745fc4425a3968fafbf8e5b8254a6dd/jackson-annotations-2.1.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/joda-time/joda-time/2.2/jar/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.google.inject/guice/3.0/jar/9d84f15fe35e2c716a02979fb62f50a29f38aefa/guice-3.0.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.1.4/jar/46429d5878ff46151e63a7389c97828760527672/jackson-module-jaxb-annotations-2.1.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.google.code.gson/gson/2.2.2/jar/1f96456ca233dec780aa224bff076d8e8bca3908/gson-2.2.2.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.codehaus.woodstox/stax2-api/3.1.1/jar/466eab062e9d1a3ce2c4631b6d09b5e5c0cbd1b/stax2-api-3.1.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.ninjaframework/ninja-core/1.3/jar/90c0ab161cf0b6719ef6cbde82d9335fce47f7db/ninja-core-1.3.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.glassfish.web/javax.el/2.2.4/jar/a50914ff519682e185bca4385b4313b8c8a81775/javax.el-2.2.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/commons-configuration/commons-configuration/1.8/jar/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.mindrot/jbcrypt/0.3m/jar/fe2d9c5f23767d681a7e38fc8986b812400ec583/jbcrypt-0.3m.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.sonatype.sisu.inject/cglib/2.2.1-v20090111/jar/7ce5e983fd0e6c78346f4c9cbfa39d83049dda2/cglib-2.2.1-v20090111.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.ninjaframework/ninja-core/1.4.4/jar/ab54d69560d8a0dd30225c94a379f00e9468999d/ninja-core-1.4.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.google.guava/guava/12.0.1/jar/b8e78b9af7bf45900e14c6f958486b6ca682195f/guava-12.0.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.fasterxml.jackson.core/jackson-databind/2.1.4/jar/61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90/jackson-databind-2.1.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.jboss.logging/jboss-logging/3.1.1.GA/jar/7fb1a7eb7ff1d15cac1802510fee65c7ca31a869/jboss-logging-3.1.1.GA.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.apache.commons/commons-lang3/3.1/jar/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.fasterxml.jackson.core/jackson-annotations/2.1.4/jar/76b956e45e19e4e081a9c52a68a3c078e3b2cf17/jackson-annotations-2.1.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.freemarker/freemarker-gae/2.3.19/jar/e036c313e29cd45c4b54afca9a7de35a082bea2c/freemarker-gae-2.3.19.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/commons-io/commons-io/2.4/jar/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/commons-lang/commons-lang/2.6/jar/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/javax.xml.stream/stax-api/1.0-2/jar/d6337b0de8b25e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/asm/asm/3.1/jar/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.fasterxml/classmate/0.8.0/bundle/27426d4fca7adcda34f536e32d6189566a2929f0/classmate-0.8.0.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/ch.qos.logback/logback-classic/1.0.4/jar/93fb27848ad8ecac9f220356e22a791eff6e58f0/logback-classic-1.0.4.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/commons-lang/commons-lang/2.6/jar/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.google.inject.extensions/guice-servlet/3.0/jar/610cde0e8da5a8b7d8efb8f0b8987466ffebaaf9/guice-servlet-3.0.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.apache.commons/commons-email/1.3.1/jar/c8532fac118c53d65e302d45c23403f39b7ef7a9/commons-email-1.3.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.apache.commons/commons-lang3/3.1/jar/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/commons-io/commons-io/2.4/jar/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/com.google.guava/guava/14.0.1/bundle/69e12f4c6aeac392555f1ea86fab82b5e5e31ad4/guava-14.0.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.ninjaframework/ninja-servlet/1.3/jar/5b7a7f8c0430e0a763d352d50bcde292e7342947/ninja-servlet-1.3.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/ch.qos.logback/logback-classic/1.0.11/jar/5864376e5a8a1b347fc2d1a8f12f077071acaa24/logback-classic-1.0.11.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/javax.xml.stream/stax-api/1.0-2/jar/d6337b0de8b25e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.slf4j/slf4j-api/1.7.4/jar/b080da16832c1240acbf3f59f338a8e713705c0c/slf4j-api-1.7.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.1.1/jar/507a535ad922dd8e8a55534f3fa99efa7b42c119/jackson-dataformat-xml-2.1.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/asm/asm/3.1/jar/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/javax.validation/validation-api/1.0.0.GA/jar/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/org.slf4j/slf4j-api/1.6.4/jar/2396d74b12b905f780ed7966738bb78438e8371a/slf4j-api-1.6.4.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/javax.validation/validation-api/1.1.0.Final/jar/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/javax.activation/activation/1.1.1/jar/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/commons-fileupload/commons-fileupload/1.3/jar/c89e540e4a12cb034fb973e12135839b5de9a87e/commons-fileupload-1.3.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/commons-codec/commons-codec/1.6/jar/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.ninjaframework/ninja-servlet/1.4.4/jar/49f75b2cc086c905490b65073e1da27097f38eb3/ninja-servlet-1.4.4.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-13/filestore/javax.servlet/javax.servlet-api/3.0.1/jar/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/org.hibernate/hibernate-validator/5.0.0.Final/jar/3899cfbb50aea961cae6ebce13314e387047d9d0/hibernate-validator-5.0.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/javax.activation/activation/1.1.1/jar/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/commons-codec/commons-codec/1.7/jar/9cd61d269c88f9fb0eb36cea1efcd596ab74772f/commons-codec-1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/var/GRADLE_USER_HOME/caches/artifacts-24/filestore/javax.servlet/javax.servlet-api/3.0.1/jar/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 	</wb-module>
